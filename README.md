@@ -6,7 +6,7 @@
 
 ## 🖥️ Live Demo
 
-🔗 [Coming Soon](#)
+🔗https://pagepick.vercel.app/
 
 ---
 
