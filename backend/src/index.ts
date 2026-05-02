@@ -11,7 +11,15 @@ dotenv.config()
 const app = express()
 
 // Middlewares
-app.use(cors())
+app.use(cors({
+  origin: [
+    'http://localhost:5173',
+    'http://localhost:3000',
+    'https://pagepick.vercel.app'
+  ],
+  methods: ['GET', 'POST', 'DELETE'],
+  allowedHeaders: ['Content-Type']
+}))
 app.use(express.json())
 
 // Serve uploaded files statically
