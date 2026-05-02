@@ -15,7 +15,7 @@ app.use(cors({
   origin: [
     'http://localhost:5173',
     'http://localhost:3000',
-    'https://pagepick.vercel.app'
+    "https://pagepick.vercel.app/"
   ],
   methods: ['GET', 'POST', 'DELETE'],
   allowedHeaders: ['Content-Type']
